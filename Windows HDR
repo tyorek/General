@@ -1,0 +1,7 @@
+If you're like me and use an HDR monitor and always struggle with that over saturated greyed out look when you enable HDR. The issue isn't that there is something wrong with your monitor or windows itself. The problem lies with how windows handles SDR content when HDR is enabled. 
+
+I have a fix that I just implemented on my rig. This is specific to NVIDIA GPUs, AMD may have something similar in their adrenaline control panel. 
+
+I've experimented with HDR calibration, and different filters. But the biggest difference I have found is changing the gamma level. You do this by opening the NVIDIA control panel, then going to adjust desktop color settings under the display header. Under the third settings Apply color enhancements are three slide bars. The very last one is Gamma. With HDR enabled lower the level down until you notice the over saturation and and greyness clears up. My rig is set to 0.65 however I noticed a major difference at 0.70, to give you a range to start with.
+
+If you find yourself having to go way below that range to notice a difference restore your gamma setting. Then download the windows hdr calibration tool from the Microsoft store. If you are using an lcd screen you want to go where the icons are barely visible just before they disappear. If you're using an oled you want to make sure the icons shown completely disappear. Once done retry lowering the gamma again and you should be around the same range I stated.
